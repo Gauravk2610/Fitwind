@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../iron_man_low_poly_art_4k.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	color-profile: #fff;
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+}
+ul li a{
+	color: #fff;
+
+}
+ul li a{
+	text-decoration: none;
+	color: #transparent;
+	padding: 5px 20px;
+	background: #transparent;
+	transition: 1.6s;
+	overflow: hidden;
+}
+ul li a:hover{
+		background-color: transparent;
+	    color: #fff;
+	    background: #2196f3;
+	    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+	    transition: 0.6s ease;	
+
+}
+ul li.active a{
+    background-color: transparent;
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+    transition: 0.6s ease;	
+
+}
